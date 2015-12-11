@@ -1,0 +1,31 @@
+body {
+	width: 600px;
+	margin: 0 auto;
+	font: 18px 'Droid Sans';
+	color: #555;
+}
+a {
+	color:#333;
+}
+a:hover {
+	color: red;
+}
+a:visited {
+	color: #999;
+}
+a:visited:hover {
+	color: red;
+}
+.login_reg {
+	float: right;
+}
+.content {
+	position: relative;
+}
+#loginform {
+	position: absolute;
+	top: 0px;
+	left: 600px;
+	background-color: #fff;
+	padding: 20px;
+}
